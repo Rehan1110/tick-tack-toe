@@ -1,0 +1,8 @@
+:root {
+  --text: #1d190b;
+  --background: #f1f7f9;
+  --primary: #383a3a;
+  --secondary: #d73430;
+  --bordergridcolor: rgb(70, 20, 8);
+  --borderthickness: 4px;
+}
