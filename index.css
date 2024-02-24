@@ -36,3 +36,23 @@ p {
     font-family: marker;
     src: url("../fonts/marker.ttf");
 }
+
+.header {
+  font-family: magic, sans-serif;
+  font-size: 5rem;
+  color: var(--text);
+  height: 8rem;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#word-1 {
+  color: #d73430;
+}
+#word-2 {
+color: green;
+}
+#word-3 {
+color: blue;
+}
