@@ -56,3 +56,24 @@ color: green;
 #word-3 {
 color: blue;
 }
+.scoreboard-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 30px 20px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-family: kodo, sans-serif;
+}
+#btnrestart {
+  margin-left: 20px;
+  border:0;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  color: var(--background);
+  background-color: rgb(39, 39, 153);
+  transition-duration: 1,5s;
+}
