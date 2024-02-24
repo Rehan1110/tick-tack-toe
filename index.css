@@ -77,3 +77,60 @@ color: blue;
   background-color: rgb(39, 39, 153);
   transition-duration: 1,5s;
 }
+.playground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 180px;
+  width: 180px;
+  background-color: #f1f7f9;
+  font-family: marker, 'Courier New', Courier, monospace;
+  font-size: 5rem;
+  color: rgb(60,10,100);
+}
+.playbox button {
+  border: var(--borderthickness) inset var(--bordergridcolor);
+}
+.playbox button:nth-child(1) {
+  border-top: 0;
+  border-left: 0;
+
+}
+
+.playbox button:nth-child(2) {
+  border-top: 0;
+}
+
+.playbox button:nth-child(3) {
+  border-top: 0;
+  border-right: 0;
+}
+
+.playbox button:nth-child(4) {
+  border-left: 0;
+}
+
+.playbox button:nth-child(6) {
+  border-right: 0;
+}
+.playbox button:nth-child(7) {
+  border-left: 0;
+  border-bottom: 0;
+}
+.playbox button:nth-child(8) {
+  border-bottom: 0;
+}
+.playbox button:nth-child(9) {
+  border-bottom: 0;
+  border-right: 0;
+}
+.playbox {
+  background-color: #383a3a;
+  gap: 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
