@@ -22,21 +22,6 @@ p {
 
 }
 
-@font-face {
-    font-family: magic;
-    src: url("../fonts/magic-retro.ttf");
-}
-
-@font-face {
-    font-family: kodo;
-    src: url("../fonts/kodo.ttf");
-}
-
-@font-face {
-    font-family: marker;
-    src: url("../fonts/marker.ttf");
-}
-
 .header {
   font-family: magic, sans-serif;
   font-size: 5rem;
@@ -134,40 +119,39 @@ color: blue;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
-dialog {
+/* dialog {
 margin-top:6%;
 width: 400px;
-/* From https://css.glass */
 background: rgba(210, 222, 234, 0.83);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(3.2px);
 -webkit-backdrop-filter: blur(3.2px);
 border: 1px solid rgba(210, 222, 234, 0.89);
-}
-.formlayout {
+} */
+/* .formlayout {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
   padding: 10px;
   color: rgb(7, 7, 92);   
-}
-.formheader h2 {
+} */
+/* .formheader h2 {
   text-align: center;
-}
-.startgamewrap {
+} */
+/* .startgamewrap {
 margin-top: 20px;
-}
-.formlayout div > input {
+} */
+/* .formlayout div > input {
 height: 25px;
 padding-left: 10px;
 border: 1px;
 border-radius: 25px;
 background-color: #f4f4fc;
-}
+} */
 
-#startgame {
+/* #startgame {
   border:0;
   padding: 10px 10px 10px 20px;
   cursor: pointer;
@@ -177,13 +161,13 @@ background-color: #f4f4fc;
   color: var(--background);
   background-color: rgb(39, 39, 153);
   transition-duration: 1,5s;
-}
+} */
 
-#startgame:hover {
+/* #startgame:hover {
   background-color: rgb(65, 89, 226);
   box-shadow: 5px 5px 14px #d0d0d4;
-}
-.dialogrow {
+} */
+/* .dialogrow {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -200,4 +184,4 @@ background-color: #f4f4fc;
   color: var(--background);
   background-color: rgb(39, 39, 153);
   transition-duration: 1,5s;
-}
+} */
